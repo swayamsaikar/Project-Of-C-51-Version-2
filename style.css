@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Itim&display=swap");
+
+* {
+  font-family: "Itim", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.para ul {
+  font-size: 25px;
+  text-transform: lowercase;
+}
+
+.menu a {
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+  padding: 20px;
+  color: #9a9da0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343a40;
+  flex-wrap: wrap;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #ffbd2f;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+body {
+  background: #e9ecef;
+  flex-wrap: wrap;
+}
+
+.more-about {
+  color: rgb(65, 88, 88);
+  text-decoration: none;
+  outline: none;
+  font-size: 23px;
+  padding-left: 15px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.more-about:hover {
+  color: rgb(153, 93, 52);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+  flex-wrap: wrap;
+
+  margin-left: 50px;
+}
+
+.content img {
+  padding-right: 6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+.footer img {
+  padding-right: 10px;
+}
+
+.copyright-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  height: 70px;
+}
+
+.copyright-menu span {
+  color: rgb(209, 194, 194);
+  font-size: 20px;
+}
